@@ -14,10 +14,8 @@ Before you can start using the Payabl.cc UI Library, make sure you have the foll
 To clone the Payabl.cc UI Library repository, use the following command:
 
 ```
-git clone <repository-url>
+git clone git@github.com:payabl-cc/payabl-ui-library.git
 ```
-
-Replace `<repository-url>` with the actual URL of the repository. If you are using SSH, the URL should start with `git@github.com:`, and if you are using HTTPS, it should start with `https://github.com/`.
 
 ## Running Tests
 
@@ -70,7 +68,7 @@ yarn add payabl-ui-library
 2. Import the desired components or styles from the library into your project:
 
 ```javascript
-import { Button, Card, Typography } from 'payabl-ui-library';
+import { PaymentButton } from 'payabl-ui-library';
 ```
 
 You can then use these components and styles in your application.
