@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
-import PaymentButton from "../PaymentButton";
+import PaymentButton from "..";
 import '@testing-library/jest-dom'
 
 describe("PaymentButton", () => {
