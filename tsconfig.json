@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@public/*": [
+        "public/*"
+      ]
+    },
+    "target": "es5",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "strictNullChecks": true
+  },
+  "include": [
+    "**/*.ts", "**/*.test.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
