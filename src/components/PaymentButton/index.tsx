@@ -6,7 +6,7 @@ import { PaymentButtonProps } from "./types";
 const PaymentButton = ({ payment_link_id }: PaymentButtonProps) => {
   const openPaymentWindow = () => {
     var windowFeatures = "height=600,width=600";
-    var targetURL = `http://localhost:3000/pay?id=${payment_link_id}&externalPaymentButtonSource=true`;
+    var targetURL = `https://payabl.cc/pay?id=${payment_link_id}&externalPaymentButtonSource=true`;
 
     window.open(targetURL, "_blank", windowFeatures);
   };
