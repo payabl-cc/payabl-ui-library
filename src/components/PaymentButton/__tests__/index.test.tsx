@@ -17,7 +17,7 @@ describe("PaymentButton", () => {
 
     fireEvent.click(paymentButton);
     expect(window.open).toHaveBeenCalledWith(
-      "http://localhost:3000/pay?id=123",
+      "https://payabl.cc/pay?id=123&externalPaymentButtonSource=true",
       "_blank",
       "height=600,width=600"
     );
